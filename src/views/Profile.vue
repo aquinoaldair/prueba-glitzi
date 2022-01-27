@@ -124,10 +124,10 @@ export default {
       return index === (this.steps.length - 1)
     },
     getButtonVariant(step) {
-      return this.steps.includes(step) ? 'primary' : 'secondary'
+      return this.stepsQueues.includes(step) ? 'primary' : 'secondary'
     },
     getTextVariant(step) {
-      return this.steps.includes(step) ? 'text-primary' : 'text-secondary'
+      return this.stepsQueues.includes(step) ? 'text-primary' : 'text-secondary'
     },
   },
 }
