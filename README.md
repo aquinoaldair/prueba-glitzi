@@ -1,3 +1,6 @@
-# Vuexy - Vuejs, React, HTML & Laravel Admin Dashboard Template
+# Prueba Front Vue
 
-**Vuexy – Vuejs, React, HTML & Laravel Admin Dashboard Template** – is the most developer friendly & highly customizable Admin Dashboard Template based on Bootstrap 4, Bootstrap Vue & Reactstrap.
+** Ésta prueba se realizadó implementado el template VUEXY en VUE CLI
+
+- npm install
+- yarn serve
