@@ -1,0 +1,61 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+.profile-title{
+  /* Heading / Heading H4 */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* 1) Theme Color/Dark */
+  color: #4B4B4B;
+}
+
+.profile-subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 10px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* 1) Theme Color/Dark */
+
+  color: #4B4B4B;
+}
+
+::placeholder {
+  color: #B9B9C3 !important;
+}
+
+.profile-label{
+  font-weight: bold;
+  font-size: 1rem;
+  color: #5E5873;
+}
+
+html[dir] .navbar-hidden .app-content {
+  padding: 0rem 0rem 0 0rem !important;
+}
+
+.mt-custom{
+  margin-top: 5px;
+}
+
+.b-avatar-img{
+  background-color: white !important;
+}

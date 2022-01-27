@@ -1,0 +1,26 @@
+//  ================================================================================================
+//  ? TIP:  It is recommended to use this file for overriding bootstrap variables.
+//  ================================================================================================
+
+$primary: #7367F0;
+
+$secondary: #BABFC7;
+$secondary-color: #BABFC7;
+
+$vs-colors: (
+        lightest: rgba(60, 60, 60, 0.26),
+        light: rgba(60, 60, 60, 0.5),
+        dark: #333,
+        darkest: rgba(0, 0, 0, 0.15),
+) !default;
+
+//  Borders
+$vs-border-width: 1px !default;
+$vs-border-style: solid !default;
+$vs-border-radius: 4px !default;
+$vs-border-color: map_get($vs-colors, 'lightest') !default;
+
+$vs-selected-bg: $primary !default;
+$vs-selected-border-color: $vs-border-color !default;
+$vs-selected-border-style: $vs-border-style !default;
+$vs-selected-border-width: $vs-border-width !default;
